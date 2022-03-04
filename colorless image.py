@@ -1,0 +1,7 @@
+new_image = aman_effect(image2,5)
+plt.figure(figsize=(11,6))
+plt.subplot(121), plt.imshow(image2, cmap='gray'),plt.title('Original')
+plt.xticks([]), plt.yticks([])
+plt.subplot(122), plt.imshow(new_image, cmap='gray'),plt.title('Image Filteration')
+plt.xticks([]), plt.yticks([])
+plt.show()
